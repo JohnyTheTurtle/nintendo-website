@@ -1,0 +1,6 @@
+.img-carousel img:hover, .swipe:hover, .overlay-nav:hover, .close:hover{
+    cursor: pointer;
+}
+.main-img img:hover{
+    cursor: zoom-in
+}
