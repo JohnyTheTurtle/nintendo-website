@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="./hoverstates.css">
+    <link rel="stylesheet" href="./animations.css">
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
     <link rel="import" href="./font_nintendo_light.woff">
     <link rel="import" href="./font_nintendo_mid.woff">
@@ -34,8 +35,8 @@
         </div>
         <div class="game-description">
             <div class="game-navbar mid-padding">
-                Store <img src="./images/right_grey.svg" alt="">
-                Games <img src="./images/right_grey.svg" alt="">
+              <a href="#">Store <img src="./images/right_grey.svg" alt=""></a>  
+              <a href="#">Games <img src="./images/right_grey.svg" alt=""></a> 
                 <p>Stardew Valley</p> 
             </div>
             <div class="main-img">
@@ -64,7 +65,26 @@
             <div class="transaction-details card-margins">
                 <p class="platform-name">Nintendo Switch</p>
                 <h1 class="game-name">Stardew Valley</h1>
-                <div class="game-purchase flex-center-content"><p class="game-price">$14.99</p><img class="heart-img-front red-image-filter" src="./images/heart.svg" alt=""><img class="heart-img white-image-filter" src="./images/heart.svg" alt=""></div>
+                <div class="game-purchase flex-center-content">
+                    <p class="game-price">$14.99</p>
+                    <div class="heart">
+                        <img class="heart-img-front red-image-filter" src="./images/heart.svg" alt="">
+                        <img class="heart-img white-image-filter" src="./images/heart.svg" alt="">
+                        <div class="tooltip">Add to Wish List</div>
+                        <div class="heart-animation">
+                            <div class="heart-arrow" id="heart-arrow1"></div>
+                            <div class="heart-arrow" id="heart-arrow2"></div>
+                            <div class="heart-arrow" id="heart-arrow3"></div>
+                            <div class="heart-arrow" id="heart-arrow4"></div>
+                            <div class="heart-arrow" id="heart-arrow5"></div>
+                            <div class="heart-arrow" id="heart-arrow6"></div>
+                            <div class="heart-arrow" id="heart-arrow7"></div>
+                            <div class="heart-arrow" id="heart-arrow8"></div>
+                            <div class="heart-animation-cover"></div>
+                        </div>
+                        
+                    </div>
+                </div>
                 <div class="promo-coins"><img src="./images/my-nintendo-gold-coin.png" alt="">Eligable for up to <b>75</b> Gold Coins</b></div>
                 <div class="game-download-btn"><img class="white-image-filter" src="./images/download_2.svg" alt="">Direct download</div>
                 <span>This item will be sent to your system automatically after purchase</span>

@@ -1,6 +1,28 @@
-.img-carousel img:hover, .swipe:hover, .overlay-nav:hover, .close:hover{
+.img-carousel img:hover,.heart-img:hover, .heart-img-front:hover, .swipe:hover,.game-download-btn:hover, .overlay-nav:hover, .close:hover{
     cursor: pointer;
 }
 .main-img img:hover{
     cursor: zoom-in
+}
+.heart:hover .tooltip{
+    visibility: visible;
+    opacity: 1;
+    transition-delay:1s;
+}
+.game-download-btn:hover{
+    animation: button-grow 0.5s;
+    filter: brightness(70%);
+    
+}
+@keyframes button-grow {
+    0%   {scale: 100%;
+            filter: brightness(70%);}
+    25%  {scale: 110%;
+        filter: brightness(70%);}
+    50%  {scale: 108%;
+        filter: brightness(70%);}
+    75%  {scale: 110%;
+        filter: brightness(70%);}
+    100% {scale: 100%;
+        filter: brightness(70%);}
 }
