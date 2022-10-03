@@ -10,7 +10,7 @@
     transition-delay:1s;
 }
 .game-download-btn:hover{
-    animation: button-grow 0.5s;
+    animation: button-grow 0.5s forwards;
     filter: brightness(70%);
     
 }
